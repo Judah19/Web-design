@@ -1,0 +1,172 @@
+
+body {
+    background-color:#002F5A ;
+}
+
+img {
+    display:block;
+    margin: 0 auto;
+    width: 100%;
+}
+h1,
+h2,
+h3 {
+    color: #002F5A;
+    text-align: center;
+}
+
+#container {
+    background-color: #E6ECF3;
+}
+
+nav {
+    background-color:#6EB7B3;
+    padding: 2px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding:0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+    border-bottom:2px solid #002F5A ;
+}
+
+nav li a {
+    display:block;
+    height: 40px;
+    line-height: 40px;
+    background-color:#378F94;
+    color: #E6ECF3;
+    text-decoration: none;
+    font: size 1.3em;
+    padding: 5px 0;
+}
+
+nav li a {
+    background-color: #E6ECF3;
+color: #378F94;
+border-color: #378F94;
+
+}
+
+main {
+    padding: 10px;
+}
+
+.col {
+    padding: 10px;
+    border-top:2px solid #002F5A;
+}
+
+footer{
+    background-color:#002F5A;
+    color: #E6ECF3;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 0;
+}
+.button {
+    display: block;
+    width: 100px;
+    height: 20px;
+    background-color: #002F5A;
+    color:#E6ECF3;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border:4px solid #002F5A;
+    border-radius: 10px;
+    
+    }
+    
+    .button:hover {
+        background-color: #6EB7B3;
+        border-color: #E6ECF3;
+    }
+
+    table {
+        border: #E6ECF3;
+    }
+
+    tr,
+    td {
+        border:4px solid #E6ECF3;
+    }
+
+    @media (min-width:768px) {
+        nav li {
+            display: inline-block;
+            border:0;
+        }
+        
+            nav li a {
+            width: 150px;
+            margin: 0 4px;
+            border-radius: 10px;
+            border: 2px solid #6EB7B3;
+        }
+
+        main {
+            display:flex;
+        }
+
+        section, 
+        aside {
+            padding:10px;
+            margin:10px;
+            border:2px solid #002F5A;
+            border-radius: 10px;
+        }
+
+        section{
+            width:70%;
+        }
+
+        aside {
+            width:30%;
+        }
+
+        .col img {
+            width:60%;
+        }
+
+        .button {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    @media (min-width:1024px) {
+        #container{
+            width:60%;
+            margin: 20px auto;
+        }
+
+        #lower_area {
+            display:flex;
+        }
+
+        .col {
+          border:2px solid #002F5A ;
+          padding:10px;
+          margin:10px;
+          border-radius:10px;
+        }
+
+        .single_page {
+            width:100%;
+        }
+
+        section img {
+            width:75%;
+        }
+
+
+    }
+    
+
